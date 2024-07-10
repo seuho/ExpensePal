@@ -1,6 +1,6 @@
 from pymongo import MongoClient
-
-ATLAS_URI = "mongodb+srv://yashasvipamuln352:z6ksBtoTqNW2bsA2@zeroday.bw07ttm.mongodb.net/?retryWrites=true&appName=ZeroDay"
+from config import ATLAS_URL
+ATLAS_URI = ATLAS_URL
 DB_NAME = 'ExpensePal'
 
 class AtlasClient:
